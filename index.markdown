@@ -3,9 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+temporary_password: piatektrzynastego
 ---
 
 # Wesele Agaty i Borysa
+
+{% if temporary_password == jekyll.environment %}
 
 ### Szczegóły:
 
@@ -17,8 +20,6 @@ Na tej stronie w przyszłości pojawią się:
 - schemat pokoi noclegowych
 - schemat stołów
 - linki do albumów ze zdjęciami
-
-{% if password == jekyll.environment %}
 
 {% endif %}
 
