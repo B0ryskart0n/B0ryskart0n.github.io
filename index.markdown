@@ -3,12 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-temporary_password: piatektrzynastego
+temporary_password: 13lipca
 ---
 
 # Wesele Agaty i Borysa
 
-{% if temporary_password == jekyll.environment %}
+{% if page.temporary_password == jekyll.environment %}
 
 ### Szczegóły:
 
