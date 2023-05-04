@@ -8,8 +8,6 @@ input.addEventListener("keypress", e => {
 function verifyPassword() {
     const input = document.getElementById("password").value;
     if (input == "hasło") {
-        document.getElementById("secret").innerHTML = "Poprawne";
-    } else {
-        document.getElementById("secret").innerHTML = "Błędne";
+        document.location.replace("content.html");
     }
 }
