@@ -1,8 +1,13 @@
-html {
-    font-size: larger;
+body {
+    background-color: lavender;
+    text-align: center;
+}
+
+.image-bg {
+    padding: 10px;
+    background-color: rebeccapurple;
 }
 
 #map {
-    border: 0;
-    width: 100%;
+    aspect-ratio: 16 / 9;
 }
