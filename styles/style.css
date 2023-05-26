@@ -4,10 +4,22 @@ body {
 }
 
 .image-bg {
-    padding: 10px;
+    padding: 1%;
     background-color: rebeccapurple;
 }
 
 #map {
     aspect-ratio: 16 / 9;
 }
+
+table {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+/* ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+} */
