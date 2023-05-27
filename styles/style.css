@@ -29,6 +29,9 @@ div {
 
 ul {
     display: inline-block;
-    /*table*/
     text-align: left;
+}
+
+footer {
+    font-size: smaller;
 }
