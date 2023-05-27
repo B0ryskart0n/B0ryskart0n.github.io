@@ -15,7 +15,7 @@ body {
     height: 70mm;
     border-radius: 2mm;
     border-color: slategray;
-    border-width: 1mm;
+    border-width: 1px;
     border-style: solid;
 }
 
