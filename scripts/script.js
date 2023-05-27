@@ -7,7 +7,7 @@ input.addEventListener("keypress", e => {
 
 function verifyPassword() {
     const input = document.getElementById("password").value;
-    if (input == "piątek513trzynastego") {
+    if (input == "narzeczeni") {
         document.location.replace("pages/main.html");
     }
 }

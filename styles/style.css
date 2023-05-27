@@ -1,25 +1,34 @@
+h1 {
+    font-family: Alex Brush;
+    font-size: 16mm;
+}
+
 body {
     background-color: lavender;
     text-align: center;
-}
-
-.image-bg {
-    padding: 1%;
-    background-color: rebeccapurple;
+    font-size: 6mm;
+    font-family: Montserrat;
 }
 
 #map {
-    aspect-ratio: 16 / 9;
+    width: 70mm;
+    height: 70mm;
+    border-radius: 2mm;
+    border-color: slategray;
+    border-width: 1mm;
+    border-style: solid;
 }
 
-table {
+div {
+    margin: 7mm;
+    border-color: blueviolet;
+    border-radius: 4mm;
+    border-width: 1mm;
+    border-style: solid;
+}
+
+ul {
     display: inline-block;
-    text-align: right;
-    vertical-align: middle;
-}
-
-/* ul {
-    display: table;
-    margin: 0 auto;
+    /*table*/
     text-align: left;
-} */
+}
