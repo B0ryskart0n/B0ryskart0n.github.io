@@ -3,6 +3,11 @@ h1 {
     font-size: 16mm;
 }
 
+h2 {
+    margin-top: 300px;
+    font-size: 16mm;
+}
+
 body {
     background-image: url(../images/bg.png);
     background-repeat: repeat;
