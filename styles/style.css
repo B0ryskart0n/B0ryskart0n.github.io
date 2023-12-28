@@ -26,6 +26,8 @@ body {
 div {
     position: center;
     width: max(45vw, 90vmin);
+    padding-left: 1vw;
+    padding-right: 1vw;
     margin-bottom: 3vh;
     margin-left: auto;
     margin-right: auto;
