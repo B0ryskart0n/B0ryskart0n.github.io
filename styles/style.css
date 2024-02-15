@@ -23,6 +23,11 @@ body {
     border-color: gray;
 }
 
+#palac {
+    width: 100%;
+    border-radius: 20px;
+}
+
 div {
     position: center;
     width: max(45vw, 90vmin);
